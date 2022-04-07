@@ -1,6 +1,5 @@
 package com.homework.kirbasko;
-//comment
-//comment2
+
 public class HomeWorkApp {
         public static void main (String[] args) {
             printThreeWords();
