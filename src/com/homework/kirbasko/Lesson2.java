@@ -6,6 +6,7 @@ public class Lesson2 {
             TwoDotTwo();
             TwoDotThree();
             TwoDotFour();
+            TwoDotFive();
     }
         public static void TwoDotOne() {
             int a = 5;
@@ -33,5 +34,16 @@ public class Lesson2 {
                 System.out.println(b);
             }
     }
+        public static void TwoDotFive() {
+            int y = 2480;
+            boolean bool = y % 4 == 0 && y % 100 != 100;
+                if (y % 400 == 0) {
+                    System.out.println(bool);
+            } else {
+                    System.out.println(bool);
+                }
+        }
 }
+
+
 
