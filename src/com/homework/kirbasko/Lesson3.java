@@ -11,7 +11,6 @@ public class Lesson3 {
         ThreeDotFour();
         ThreeDotSix();
         printArrayInConsole(retLenArr(5, 25));
-
     }
 
         public static void ThreeDotOne() {
