@@ -10,6 +10,8 @@ public class Lesson3 {
         ThreeDotThree();
         ThreeDotFour();
         ThreeDotSix();
+        printArrayInConsole(retLenArr(5, 25));
+
     }
 
         public static void ThreeDotOne() {
@@ -63,6 +65,12 @@ public class Lesson3 {
                 }
                 return arr;
             }
+        public static void printArrayInConsole(int[] inputArray) {
+        for (int i = 0; i < inputArray.length; i++) {
+            System.out.print(inputArray[i] + " ");
+        }
+        System.out.println();
+        }
 
         public static void ThreeDotSix () {
             int [] arr = { 10, 50, 220, 140, 2};
