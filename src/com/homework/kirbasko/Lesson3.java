@@ -5,15 +5,15 @@ import java.util.Arrays;
 
 public class Lesson3 {
     public static void main (String[] args){
-        ThreeDotOne();
-        ThreeDotTwo();
-        ThreeDotThree();
-        ThreeDotFour();
-        ThreeDotSix();
+        threeDotOne();
+        threeDotTwo();
+        threeDotThree();
+        threeDotFour();
+        threeDotSix();
         printArrayInConsole(retLenArr(5, 25));
     }
 
-        public static void ThreeDotOne() {
+        public static void threeDotOne() {
         int [] arr = {0, 1, 0, 1, 1, 0, 1};
             for (int i = 0; i < arr.length; i++) {
                 if (arr [i] == 1) {
@@ -23,7 +23,7 @@ public class Lesson3 {
             System.out.println(Arrays.toString(arr));
         }
 
-        public static void ThreeDotTwo () {
+        public static void threeDotTwo () {
             int[] numb = new int[100];
             for (int i = 0; i < 100; i++) {
                 numb[i] = i + 1;
@@ -31,7 +31,7 @@ public class Lesson3 {
             }
         }
 
-        public static void ThreeDotThree () {
+        public static void threeDotThree () {
             int[] numbs = { 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 };
             for (int i = 0; i < numbs.length; i++) {
                 if (numbs [i] < 6) {
@@ -43,7 +43,7 @@ public class Lesson3 {
 
 // Не смог придумать закономерности, чтоб описать другую диагональ.
 
-        public static void ThreeDotFour(){
+        public static void threeDotFour(){
             int [][] table = new int [4][4];
                     for (int i = 0; i < 4; i++) {
                         for (int j = 0; j < 4; j++) {
@@ -71,7 +71,7 @@ public class Lesson3 {
         System.out.println();
         }
 
-        public static void ThreeDotSix () {
+        public static void threeDotSix () {
             int [] arr = { 10, 50, 220, 140, 2};
             Arrays.sort(arr);
             System.out.println(Arrays.toString(arr));
